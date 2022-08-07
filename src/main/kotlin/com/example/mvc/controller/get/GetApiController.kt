@@ -16,7 +16,7 @@ class GetApiController {
         return "hello kotlin"
     }
 
-    @RequestMapping(method = [RequestMethod.GET], path = ["request-mapping"])
+    @RequestMapping(method = [RequestMethod.GET], path = ["/request-mapping"])
     fun requestMapping(): String{
         return "request-mapping"
     }
